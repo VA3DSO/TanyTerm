@@ -1,5 +1,6 @@
 # TanyTerm
 A minimalist terminal program for the Commodore VIC-20
+![TanyTerm](https://github.com/user-attachments/assets/3011f4b6-2f55-4bc4-9f1e-c46dbc723bcb)
 
 Based on victerm300 by Francesco Sblendorio (https://github.com/sblendorio/victerm300), this is a stripped down absolutely minimalist version of a terminal program for a VIC-20.
 
