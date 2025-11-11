@@ -10,24 +10,24 @@ By default, TanyTerm runs at 1200 baud using the VIC-20's Kernal routines to com
 
 To dial out, simply type something like:
 
-atdt bbs.deepskies.com:6400
+    atdt bbs.deepskies.com:6400
 
 and the terminal will connect. To hang up, type three plus signs (+++) quickly and then enter:
 
-ath0
+    ath0
 
 to hang up. Finally, you can press F7 to exit the terminal program and go back to BASIC.
 
 For compiling, something like this would work for an unexpanded VIC:
 
-cl65 -t vic20 --config vic20.cfg -Cl -O -o tt.prg tt.c
+    cl65 -t vic20 --config vic20.cfg -Cl -O -o tt.prg tt.c
 
 If you want to run at 300 baud instead of 1200, update line 67 from:
 
-p[0] = 8;
+    p[0] = 8;
 
 to:
 
-p[0] = 6;
+    p[0] = 6;
 
 and re-compile.
