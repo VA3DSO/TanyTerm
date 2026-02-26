@@ -6,7 +6,7 @@ Based on victerm300 by Francesco Sblendorio (https://github.com/sblendorio/victe
 
 Compile it using the cc65 compiler and transfer the resulting .PRG file to a media that your VIC-20 can access.
 
-By default, TanyTerm runs at 1200 baud using the VIC-20's Kernal routines to communicating with whatever modem device you have connected to the User Port. The device will have to be a "smart" device such as a modern WiFi Modem or a Smart Modem (ie: one that recognizes Hayes-style "AT" commands). 
+By default, TanyTerm runs at 1200 baud using the VIC-20's Kernal routines to communicate with whatever modem device you have connected to the User Port. The device will have to be a "smart" device such as a modern WiFi Modem or a Smart Modem (ie: one that recognizes Hayes-style "AT" commands). 
 
 To dial out, simply type something like:
 
