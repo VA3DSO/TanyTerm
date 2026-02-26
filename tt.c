@@ -48,6 +48,7 @@
 #define ERROR 1
 #define OFF 0
 #define ON 1
+#define KEY_F7 136
 
 /* local functions */
 void print(char*);
@@ -81,7 +82,7 @@ char main(void) {
         /* XLOCAL */
 
         ch = cbm_k_getin();
-        if (ch == 136) {
+        if (ch == KEY_F7) {
             cursor_off();
             exiting = TRUE;
             break;

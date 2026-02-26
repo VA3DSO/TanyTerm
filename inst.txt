@@ -1,0 +1,3 @@
+del tt
+write tt.prg tt
+quit
