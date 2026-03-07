@@ -99,6 +99,9 @@ char main(void) {
         if (ch != 0) {
             cursor_off();
             cbm_k_bsout(ch);
+            if (ch == 34) {
+                POKE(212, 0);
+            }
             if (ch == 7) {
                 beep();
             }
