@@ -1,3 +1,0 @@
-del tt
-write ttx.prg tt
-quit

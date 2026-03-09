@@ -36,8 +36,4 @@ There is also a makefile included, so you can do:
 
     make
 
-to build for the unexpanded VIC. Alternatively you can do:
-
-    make 35k
-
-to build for a 35K expanded VIC.
+to build for the unexpanded VIC. 
