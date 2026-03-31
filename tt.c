@@ -65,7 +65,7 @@ char main(void) {
     char ch;
     char *p = "x";
 
-    p[0] = 8;       /* 6 = 300 baud, 8 = 1200 baud */
+    p[0] = 6;       /* 6 = 300 baud, 8 = 1200 baud */
 
     CS = OFF;
 
